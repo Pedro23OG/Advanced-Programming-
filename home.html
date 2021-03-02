@@ -1,6 +1,19 @@
 <html>
     <title>MyFirstWebsite</title>
     <head>
+      <script src="jquery-3.1.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                function rgt() {
+                  $(`#sldr`).animate({ left: "1200" }, 900, hider);
+              }
+              rgt();
+              function hider() {
+                  $(`#sldr`).css('left', '0px')
+              }
+          });
+      </script>
+
         <style>
             ul {
               list-style-type: none;
@@ -50,7 +63,7 @@
             }
         </style>
             </style>
-    <body style="background-color:rgb(0, 0, 0);">
+    <body style="background-color:rgb(0, 0, 0);"> 
     <div style="color: gold;">
         <h2>Welcome Everyone</h2>
     </div>
@@ -61,6 +74,11 @@
       <li><a href="interests.html">Interests</a></li>
     </ul>
         <img src="Pedro2k19.jpg" alt="Me" width="400" height="500">
+        <form id="form1" runat="server">
+            <div>
+              <img id="sldr" src="plane.gif" style="position: absolute" />
+            </div>
+        </form>
     <div style="color: gold;">
         <p>Interests: Playing the game, Making youtube videos, Napping, Going to the gym, & Basketball.</p>
         <p>Courses: Advanced Programming, Managerial Accounting, Introduction to the Visual Arts, Business career prep, Server Managment.</p>

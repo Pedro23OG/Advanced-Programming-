@@ -39,6 +39,28 @@
         <li><a class="active" href="interests.html">Interests</a></li>
     </ul>
         <img src="Pedro2k19.jpg" alt="Me" width="400" height="500">
+
+        <button onclick = "gfg_Run()">  
+            Click here 
+        </button> 
+
+        <script> 
+            var el_up = document.getElementById("GFG_UP"); 
+            var el_down = document.getElementById("GFG_DOWN"); 
+            var str = "Click on button to change the background color"; 
+          
+            el_up.innerHTML = str; 
+          
+            function changeColor(color) { 
+                document.body.style.background = color; 
+            } 
+              
+            function gfg_Run() { 
+                changeColor('red'); 
+                el_down.innerHTML = "Background Color changed"; 
+            }          
+        </script>
+
         <p>Interests: Playing the game, Making youtube videos, Napping, Going to the gym, & Basketball.</p>
         <p>Courses: Advanced Programming, Managerial Accounting, Introduction to the Visual Arts, Business career prep, Server Managment.</p>
         <p>Contact: payikp@pointpark.edu, insta@kvng.dro</p>
