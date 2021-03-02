@@ -1,0 +1,12 @@
+#MyFirstWebsite
+
+##Details
+- Website created from scratch.
+- Includes almost everything that I enjoy.
+- Use's multiple scripts that gives the website it's flair.
+- Website has images that are animated and buttons that can change the look of the website.
+
+##Missing Features
+-There is no travel page.
+-No copyright at bottom or date.
+-Interests page isn't professional looking yet.
