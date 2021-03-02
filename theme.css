@@ -1,0 +1,9 @@
+p {
+    font-size: 2em;
+}
+p.big{
+    font-size: 5em;
+}
+p.reduce{
+    font-size: 1em;
+}
