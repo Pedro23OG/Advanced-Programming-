@@ -7,6 +7,6 @@
 - Website has images that are animated and buttons that can change the look of the website.
 
 ### Missing Features
--There is no travel page.
--No copyright at bottom or date.
--Interests page isn't professional looking yet.
+- There is no travel page.
+- No copyright at bottom or date.
+- Interests page isn't professional looking yet.
