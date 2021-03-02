@@ -68,7 +68,17 @@
         <p class="enlargeable">Contact: payikp@pointpark.edu, insta@kvng.dro</p>
 
         <button id="enlarge">Enlarge</button>
-        <button id="enlarge">reduce</button>
+        <button id="reduce">reduce</button>
+
+        <script>
+            $("button#enlarge").on("click", function(){
+                $("p.enlargeable").addClass("big");
+            });
+
+            $("button#reduce").on("click", function(){
+                $("p.enlargeable").removeClass("big");
+            });
+        </script>
     </body>
     </head>
 </html>
