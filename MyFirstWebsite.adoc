@@ -1,5 +1,8 @@
 # MyFirstWebsite
 
+### Programming languages used
+- HTML, CSS, JQuery
+
 ### Details
 - Website created from scratch.
 - Includes almost everything that I enjoy.
